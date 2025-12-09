@@ -110,10 +110,17 @@
 						fill="#36536B"
 					/>
 				</svg>
-				<p class="autrepage">pricing</p>
-				<p class="autrepage">about</p>
-				<p class="autrepage">contact</p>
-				<button class="buttonprimary">Schedule a Demo</button>
+
+				<div class="regrouper">
+					<a href="pages/pricing.html" class="autrepage">pricing</a>
+					<a href="pages/about.html" class="autrepage">about</a>
+					<a href="pages/contact.html" class="autrepage">contact</a>
+				</div>
+				<a href="#">
+					<button type="Call to action" class="buttonprimary none" required>
+						Schedule a Demo
+					</button>
+				</a>
 				<svg
 					class="burger"
 					width="28"
@@ -143,8 +150,28 @@
 			</nav>
 		</header>
 		<main>
-			<input type="text" placeholder="lol" required />
-			<textarea placeholder="lol2" required></textarea>
+			<section class="hero">
+				<div class="photo">
+					<img id="tel" src="assets/unnamed.png" alt="telephone" />
+				</div>
+				<div class="columns">
+					<h1 class="start">
+						Start building with our APIs for absolutely free.
+					</h1>
+					<form action="">
+						<input
+							class="email"
+							type="email"
+							placeholder="Enter email address"
+						/>
+						<button class="buttonprimary form1">Schedule a Demo</button>
+					</form>
+					<p class="question">
+						Have any questions?
+						<a class="contacthome" href="pages/contact.html">Contact Us</a>
+					</p>
+				</div>
+			</section>
 		</main>
 	</body>
 </html>

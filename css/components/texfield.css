@@ -2,7 +2,7 @@ input {
 	border: none;
 	border-bottom: solid #36536b;
 	padding: 12px 4px;
-	border-radius: 12px;
+	border-radius: 18px;
 }
 
 input:invalid {

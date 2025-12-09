@@ -6,8 +6,8 @@
 	font-size: 15px;
 	line-height: 100%;
 	letter-spacing: -0.12px;
-	width: max-content;
-	padding: 8px;
+
+	padding: 14px 12px;
 	border-radius: 18px;
 	color: white;
 	border: none;
@@ -55,7 +55,7 @@
 }
 .buttonsecondary3:hover {
 	background-color: #36536b;
-    color: white;
+	color: white;
 }
 .buttonsecondary3:disabled {
 	opacity: 50%;
