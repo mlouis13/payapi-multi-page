@@ -1,0 +1,23 @@
+input {
+	border: none;
+	border-bottom: solid #36536b;
+	padding: 12px 4px;
+	border-radius: 12px;
+}
+
+input:invalid {
+	border-color: red;
+}
+
+input:placeholder {
+	color: #36536b;
+	font-weight: 400;
+	letter-spacing: -0.12px;
+	font-family: "Public Sans";
+}
+
+input:focus {
+	border: none;
+	border-bottom: solid #36536b;
+	color: #36536b;
+}

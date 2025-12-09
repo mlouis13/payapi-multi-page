@@ -1,0 +1,22 @@
+textarea {
+  border: none;
+  border-bottom: solid #36536b;
+  padding: 24px 8px;
+}
+
+textarea:invalid {
+  border-color: red;
+}
+
+textarea:placeholder {
+  color: #36536b;
+  font-weight: 400;
+  letter-spacing: -0.12px;
+  font-family: "Public Sans";
+}
+
+textarea:focus {
+  border: none;
+  border-bottom: solid  #36536B;
+  color: #36536B;
+}
