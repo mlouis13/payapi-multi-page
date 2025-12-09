@@ -10,6 +10,7 @@
 	padding: 8px;
 	border-radius: 18px;
 	color: white;
+	border: none;
 }
 .buttonprimary:hover {
 	opacity: 50%;

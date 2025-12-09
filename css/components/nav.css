@@ -1,0 +1,31 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+button {
+	display: none;
+}
+.autrepage {
+	display: none;
+}
+@media screen and (min-width: 720px) {
+	.autrepage {
+		display: block;
+		font-family: Public Sans;
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 100%;
+		letter-spacing: 0px;
+        color: #36536B;
+	}
+	.burger {
+		display: none;
+	}
+	button {
+		display: block;
+	}
+    @media screen and (min-width: 1024px){
+        
+    }
+}

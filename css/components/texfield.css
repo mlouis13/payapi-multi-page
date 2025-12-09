@@ -18,6 +18,6 @@ input:placeholder {
 
 input:focus {
 	border: none;
-	border-bottom: solid #36536b;
+	border: solid 1PX #36536b;
 	color: #36536b;
 }
