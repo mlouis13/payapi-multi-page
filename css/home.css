@@ -78,6 +78,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 24px;
 }
 .row {
 	display: flex;
@@ -189,12 +190,77 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 24px;
 }
 .tel2 {
 	padding: 48px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 24px;
+}
+.writing {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+.avantage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+.gap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+.px {
+	width: 106px;
+	height: 106px;
+}
+.personal {
+	font-family: Public Sans;
+	font-weight: 700;
+	font-size: 18px;
+	color: #36536b;
+	line-height: 25px;
+	letter-spacing: -0.14px;
+	text-align: center;
+}
+
+.conso {
+	font-family: Public Sans;
+	font-weight: 400;
+	font-size: 15px;
+	color: #6c8294;
+	line-height: 25px;
+	letter-spacing: -0.12px;
+	text-align: center;
+}
+.demo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	width: 100%;
+}
+.ready {
+	font-family: "DM Serif Display", serif;
+	font-weight: 400;
+	font-size: 32px;
+	color: #36536b;
+	line-height: 36px;
+	letter-spacing: -0.25px;
+	text-align: center;
+}
+.chiant2 {
+	width: 80%;
+}
+.chiant3 {
+	width: 80%;
 }
 @media screen and (min-width: 768px) {
 	.start {
@@ -235,6 +301,23 @@ main {
 	.who {
 		font-size: 48px;
 	}
+	.easy {
+		font-size: 48px;
+	}
+	.avantage {
+		flex-direction: row;
+		align-items: center;
+	}
+	.chiant2 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.chiant3 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	@media screen and (min-width: 1024px) {
 		main {
 		}
@@ -272,6 +355,29 @@ main {
 		}
 		.today {
 			text-align: start;
+		}
+		.code {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 48px;
+		}
+		.tel2 {
+			display: flex;
+			flex-direction: row-reverse;
+			align-items: center;
+			gap: 48px;
+		}
+		.writing {
+		}
+		.avantage {
+			gap: 12px;
+		}
+		.demo {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
 		}
 	}
 }
